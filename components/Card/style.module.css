@@ -1,0 +1,44 @@
+
+.card {
+    background-color: rgb(113, 202, 24);
+    height: 450px;
+    width: 300px;
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+}
+
+.card button {
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10rem;
+    cursor: pointer;
+}
+@media(max-width:768px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        height: 250px;
+        width: 90%;
+
+    }
+    .card img {
+        width: 50%;
+        height: 240px;
+
+    }
+    .brandWrapper {
+        padding-left: 1rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+}

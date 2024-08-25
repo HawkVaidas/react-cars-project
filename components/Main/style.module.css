@@ -1,0 +1,13 @@
+
+.main {
+    background-color: rgb(218, 215, 215);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    .main {
+      height: 100%;
+    }
+  }

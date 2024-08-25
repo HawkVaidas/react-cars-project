@@ -1,0 +1,12 @@
+
+.footer {
+    background-color: rgb(58, 57, 57);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyring {
+    color: white;
+    font-size: larger;
+}
